@@ -1,0 +1,13 @@
+    {
+        "editor.fontFamily": "'Fantasque Sans Mono', 'monospace', monospace",
+        "editor.fontLigatures": true,
+        "editor.fontSize": 18,
+        "editor.lineHeight": 25,
+        "editor.tabSize": 2,
+        "editor.wordWrap": "on",
+        "workbench.startupEditor": "newUntitledFile",
+        "workbench.iconTheme": "material-icon-theme",
+        "explorer.confirmDragAndDrop": false,
+        "workbench.colorTheme": "Gruvbox Dark Hard",
+        "liveServer.settings.donotShowInfoMsg": true
+    }

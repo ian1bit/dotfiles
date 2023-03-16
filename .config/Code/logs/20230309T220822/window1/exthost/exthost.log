@@ -1,0 +1,52 @@
+2023-03-09 22:08:25.216 [info] Extension host with pid 4864 started
+2023-03-09 22:08:25.216 [info] Skipping acquiring lock for /home/ianbit/.config/Code/User/workspaceStorage/417358071c70c507195e07ead5d4016d.
+2023-03-09 22:08:25.329 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-03-09 22:08:25.368 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2023-03-09 22:08:25.400 [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onLanguage:javascript'
+2023-03-09 22:08:25.972 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-03-09 22:08:26.212 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-03-09 22:08:26.263 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-03-09 22:08:26.385 [info] Eager extensions activated
+2023-03-09 22:08:26.539 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-03-09 22:08:26.544 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-03-09 22:08:26.561 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-03-09 22:08:26.582 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-03-09 22:08:27.019 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-03-09 22:08:27.236 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-03-09 23:04:24.332 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-03-09 23:06:11.136 [info] Extension host terminating: renderer closed the MessagePort
+2023-03-09 23:06:11.177 [error] Canceled: Canceled
+	at new a (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88793)
+	at c.O (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11260)
+	at V.<computed>.Q.charCodeAt.V.<computed> (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8550)
+	at l.g (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108198)
+	at l.executeCommand (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107574)
+	at O.registerCommand.description (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106867)
+	at l.h (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108784)
+	at l.g (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107674)
+	at l.executeCommand (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107574)
+	at Object.executeCommand (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30781)
+	at D (/opt/vscode/resources/app/extensions/git/dist/main.js:2:1467127)
+	at f.invoke (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at g.deliver (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2066)
+	at h.fire (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1704)
+	at Object.m [as dispose] (/opt/vscode/resources/app/extensions/git/dist/main.js:2:1481856)
+	at /opt/vscode/resources/app/extensions/git/dist/main.js:2:1485923
+	at Array.forEach (<anonymous>)
+	at g.dispose (/opt/vscode/resources/app/extensions/git/dist/main.js:2:1485909)
+	at C.<anonymous> (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12431)
+	at C.dispose (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at C.<anonymous> (/opt/vscode/resources/app/extensions/git/dist/main.js:2:1469257)
+	at C.dispose (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at k (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12074)
+	at f.X (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11284)
+	at /opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9088
+	at Array.map (<anonymous>)
+	at f.Q (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9075)
+	at f.terminate (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9347)
+	at u.terminate (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+	at p (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:18592)
+	at MessagePortMain.<anonymous> (/opt/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:14731)
+	at MessagePortMain.emit (node:events:526:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-03-09 23:06:11.195 [info] Extension host with pid 4864 exiting with code 0

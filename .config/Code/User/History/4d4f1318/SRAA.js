@@ -1,0 +1,8 @@
+// o objeto Math
+console.log(Math)
+console.log(Math.PI)
+console.log(Math.E)
+
+const area = 7.2
+
+console.log(Math.round(area))

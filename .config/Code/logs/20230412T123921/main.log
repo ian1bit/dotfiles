@@ -1,0 +1,18 @@
+2023-04-12 12:39:22.077 [info] [SharedProcess] using utility process
+2023-04-12 12:39:22.206 [info] update#setState idle
+2023-04-12 12:39:24.479 [info] [UtilityProcess id: 1, type: extensionHost, pid: <none>]: creating new...
+2023-04-12 12:39:24.501 [info] [UtilityProcess id: 1, type: extensionHost, pid: 10273]: successfully created
+2023-04-12 12:39:24.619 [info] [UtilityProcess type: shared-process, pid: <none>]: creating new...
+2023-04-12 12:39:24.630 [info] [UtilityProcess id: 1, type: fileWatcher, pid: <none>]: creating new...
+2023-04-12 12:39:24.642 [info] [UtilityProcess type: shared-process, pid: 10283]: successfully created
+2023-04-12 12:39:24.644 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 10284]: successfully created
+2023-04-12 12:39:27.751 [error] update#isLatestVersion(): failed to check for updates
+2023-04-12 12:39:27.752 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:105:7047)
+    at SimpleURLLoaderWrapper.emit (node:events:526:28)
+2023-04-12 12:39:30.651 [error] update#isLatestVersion(): failed to check for updates
+2023-04-12 12:39:30.651 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:105:7047)
+    at SimpleURLLoaderWrapper.emit (node:events:526:28)
+2023-04-12 12:39:52.207 [info] update#setState checking for updates
+2023-04-12 12:39:53.600 [info] update#setState available for download

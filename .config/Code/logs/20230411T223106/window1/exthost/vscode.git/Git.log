@@ -1,0 +1,22 @@
+2023-04-11 22:31:14.344 [info] Log level: Info
+2023-04-11 22:31:14.344 [info] Validating found git in: "git"
+2023-04-11 22:31:14.344 [info] Using git "2.40.0" from "git"
+2023-04-11 22:31:14.344 [info] > git rev-parse --show-toplevel [19ms]
+2023-04-11 22:31:14.344 [info] > git rev-parse --git-dir --git-common-dir [21ms]
+2023-04-11 22:31:14.345 [info] Open repository: /home/ianbit/Documents/challenges
+2023-04-11 22:31:14.345 [info] > git rev-parse --show-toplevel [39ms]
+2023-04-11 22:31:14.345 [info] > git rev-parse --show-toplevel [9ms]
+2023-04-11 22:31:14.345 [info] > git config --get commit.template [41ms]
+2023-04-11 22:31:14.345 [info] > git rev-parse --show-toplevel [965ms]
+2023-04-11 22:31:14.345 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2023-04-11 22:31:14.345 [info] > git status -z -uall [32ms]
+2023-04-11 22:31:14.345 [info] > git config --get commit.template [27ms]
+2023-04-11 22:31:14.345 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2023-04-11 22:31:14.345 [info] > git status -z -uall [11ms]
+2023-04-11 22:31:14.345 [info] > git check-ignore -v -z --stdin [7ms]
+2023-04-11 22:31:15.668 [info] > git show --textconv :news-homepage-main/style.css [84ms]
+2023-04-11 22:31:15.669 [info] > git ls-files --stage -- /home/ianbit/Documents/challenges/news-homepage-main/style.css [56ms]
+2023-04-11 22:31:15.722 [info] > git cat-file -s 47f6dc822e4c675ba8637ca50dea13c333cac3fe [26ms]
+2023-04-11 22:31:15.725 [info] > git config --get commit.template [58ms]
+2023-04-11 22:31:15.781 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2023-04-11 22:31:15.864 [info] > git status -z -uall [66ms]

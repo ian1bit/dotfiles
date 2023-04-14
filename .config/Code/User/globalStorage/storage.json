@@ -2,9 +2,14 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
+            "file:///home/ianbit/Documents/challenges/news-homepage-main": "__default__profile__",
+            "file:///home/ianbit/Documents/cursos/roger-melo-js/modulo-09/exercicio1": "__default__profile__",
+            "file:///home/ianbit/Documents/cursos": "__default__profile__",
             "file:///home/ianbit/Documents/cursos/roger-melo-js": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1681426843837": "__default__profile__"
+        }
     },
     "profileAssociationsMigration": true,
     "telemetry.machineId": "4152d7377e31bc5de2fe3174bdd4e6109eead8da416b92174ce5beab7db44d7a",
@@ -15,7 +20,11 @@
                 "folderUri": "file:///home/ianbit/Documents/cursos/roger-melo-js"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1681426843837"
+            }
+        ]
     },
     "windowsState": {
         "lastActiveWindow": {
@@ -24,9 +33,9 @@
             "uiState": {
                 "mode": 1,
                 "x": 1378,
-                "y": 32,
+                "y": 31,
                 "width": 1896,
-                "height": 1036
+                "height": 1037
             }
         },
         "openedWindows": []
@@ -69,7 +78,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -84,6 +94,39 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Documents/cursos/roger-melo-js"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ianbit/Documents/cursos",
+                                        "path": "/home/ianbit/Documents/cursos",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/cursos"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ianbit/Documents/cursos/roger-melo-js/modulo-09/exercicio1",
+                                        "path": "/home/ianbit/Documents/cursos/roger-melo-js/modulo-09/exercicio1",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/cursos/roger-melo-js/modulo-09/exercicio1"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ianbit/Documents/challenges/news-homepage-main",
+                                        "path": "/home/ianbit/Documents/challenges/news-homepage-main",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/challenges/news-homepage-main"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -144,13 +187,11 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save",
-                        "enabled": false
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As...",
-                        "enabled": false
+                        "label": "Save &&As..."
                     },
                     {
                         "id": "saveAll",
@@ -296,13 +337,11 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor",
-                        "enabled": false
+                        "label": "&&Close Editor"
                     },
                     {
                         "id": "workbench.action.closeFolder",
@@ -351,13 +390,11 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find",
-                        "enabled": false
+                        "label": "&&Find"
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace",
-                        "enabled": false
+                        "label": "&&Replace"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -522,7 +559,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel"
+                                    "label": "&&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -739,7 +777,7 @@
                     {
                         "id": "editor.action.toggleWordWrap",
                         "label": "&&Word Wrap",
-                        "enabled": false
+                        "checked": true
                     },
                     {
                         "id": "editor.action.toggleStickyScroll",
@@ -1419,6 +1457,11 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+numpad0"
             },
+            "workbench.action.splitEditorUp": {
+                "label": "Ctrl+K Ctrl+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+\\"
+            },
             "workbench.action.splitEditorInGroup": {
                 "label": "Ctrl+K Ctrl+Shift+\\",
                 "isNative": false,
@@ -1640,10 +1683,6 @@
                 "label": "Ctrl+K Ctrl+R",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+r"
-            },
-            "workbench.action.toggleDevTools": {
-                "label": "Ctrl+Shift+I",
-                "userSettingsLabel": "ctrl+shift+i"
             }
         }
     },

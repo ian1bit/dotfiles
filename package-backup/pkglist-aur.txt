@@ -1,0 +1,5 @@
+google-chrome
+mirage
+ttf-font-awesome-5
+ttf-symbola
+yay

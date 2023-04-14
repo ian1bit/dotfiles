@@ -1,0 +1,87 @@
+2023-04-13 12:38:51.938 [info] Log level: Info
+2023-04-13 12:38:51.939 [info] Validating found git in: "git"
+2023-04-13 12:38:51.939 [info] Using git "2.40.0" from "git"
+2023-04-13 12:38:51.939 [info] > git rev-parse --show-toplevel [5ms]
+2023-04-13 12:38:51.939 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-04-13 12:38:51.939 [info] Open repository: /home/ianbit/Documents/challenges
+2023-04-13 12:38:51.939 [info] > git rev-parse --show-toplevel [11ms]
+2023-04-13 12:38:51.939 [info] > git rev-parse --show-toplevel [3ms]
+2023-04-13 12:38:51.939 [info] > git config --get commit.template [21ms]
+2023-04-13 12:38:51.939 [info] > git rev-parse --show-toplevel [14ms]
+2023-04-13 12:38:51.939 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2023-04-13 12:38:51.939 [info] > git status -z -uall [355ms]
+2023-04-13 12:38:51.940 [info] > git config --get commit.template [20ms]
+2023-04-13 12:38:51.955 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-04-13 12:38:51.971 [info] > git status -z -uall [6ms]
+2023-04-13 12:38:52.405 [info] > git check-ignore -v -z --stdin [3ms]
+2023-04-13 12:38:52.770 [info] > git show --textconv :news-homepage-main/style.css [17ms]
+2023-04-13 12:38:52.770 [info] > git ls-files --stage -- /home/ianbit/Documents/challenges/news-homepage-main/style.css [3ms]
+2023-04-13 12:38:52.789 [info] > git cat-file -s 145b65c11b2b648b7971776e513ecd6c408b988f [5ms]
+2023-04-13 12:43:51.813 [info] Log level: Info
+2023-04-13 12:43:51.813 [info] Validating found git in: "git"
+2023-04-13 12:43:51.813 [info] Using git "2.40.0" from "git"
+2023-04-13 12:43:51.813 [info] > git rev-parse --show-toplevel [9ms]
+2023-04-13 12:43:51.813 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2023-04-13 12:43:51.813 [info] Open repository: /home/ianbit/Documents/cursos
+2023-04-13 12:43:52.146 [info] > git config --get commit.template [318ms]
+2023-04-13 12:43:52.242 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [27ms]
+2023-04-13 12:43:52.265 [info] > git status -z -uall [11ms]
+2023-04-13 12:43:52.291 [info] > git config --get commit.template [5ms]
+2023-04-13 12:43:52.316 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2023-04-13 12:43:52.332 [info] > git status -z -uall [6ms]
+2023-04-13 12:43:52.667 [info] > git check-ignore -v -z --stdin [6ms]
+2023-04-13 12:44:00.185 [info] > git show --textconv :roger-melo-js/modulo-09/exercicio1/app.js [24ms]
+2023-04-13 12:44:00.185 [info] > git ls-files --stage -- /home/ianbit/Documents/cursos/roger-melo-js/modulo-09/exercicio1/app.js [8ms]
+2023-04-13 12:44:52.662 [info] Log level: Info
+2023-04-13 12:44:52.662 [info] Validating found git in: "git"
+2023-04-13 12:44:52.662 [info] Using git "2.40.0" from "git"
+2023-04-13 12:44:52.662 [info] > git rev-parse --show-toplevel [5ms]
+2023-04-13 12:44:52.662 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-04-13 12:44:52.662 [info] Open repository: /home/ianbit/Documents/cursos
+2023-04-13 12:44:52.662 [info] > git config --get commit.template [11ms]
+2023-04-13 12:44:52.662 [info] > git rev-parse --show-toplevel [23ms]
+2023-04-13 12:44:52.662 [info] > git rev-parse --show-toplevel [7ms]
+2023-04-13 12:44:52.662 [info] > git rev-parse --show-toplevel [19ms]
+2023-04-13 12:44:52.662 [info] > git rev-parse --show-toplevel [275ms]
+2023-04-13 12:44:52.662 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [294ms]
+2023-04-13 12:44:52.662 [info] > git status -z -uall [48ms]
+2023-04-13 12:44:52.662 [info] > git rev-parse --show-toplevel [70ms]
+2023-04-13 12:44:52.673 [info] > git rev-parse --show-toplevel [26ms]
+2023-04-13 12:44:52.714 [info] > git rev-parse --show-toplevel [28ms]
+2023-04-13 12:44:52.724 [info] > git config --get commit.template [52ms]
+2023-04-13 12:44:52.743 [info] > git rev-parse --show-toplevel [19ms]
+2023-04-13 12:44:52.758 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2023-04-13 12:44:52.782 [info] > git status -z -uall [13ms]
+2023-04-13 12:44:53.097 [info] > git check-ignore -v -z --stdin [4ms]
+2023-04-13 12:45:04.902 [info] Log level: Info
+2023-04-13 12:45:04.902 [info] Validating found git in: "git"
+2023-04-13 12:45:04.902 [info] Using git "2.40.0" from "git"
+2023-04-13 12:45:04.902 [info] > git rev-parse --show-toplevel [7ms]
+2023-04-13 12:45:04.902 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-04-13 12:45:04.902 [info] Open repository: /home/ianbit/Documents/cursos
+2023-04-13 12:45:04.902 [info] > git rev-parse --show-toplevel [14ms]
+2023-04-13 12:45:04.902 [info] > git rev-parse --show-toplevel [41ms]
+2023-04-13 12:45:04.902 [info] > git config --get commit.template [67ms]
+2023-04-13 12:45:04.902 [info] > git rev-parse --show-toplevel [35ms]
+2023-04-13 12:45:04.903 [info] > git rev-parse --show-toplevel [36ms]
+2023-04-13 12:45:04.925 [info] > git rev-parse --show-toplevel [10ms]
+2023-04-13 12:45:04.941 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [40ms]
+2023-04-13 12:45:04.963 [info] > git rev-parse --show-toplevel [22ms]
+2023-04-13 12:45:04.995 [info] > git status -z -uall [36ms]
+2023-04-13 12:45:04.996 [info] > git rev-parse --show-toplevel [17ms]
+2023-04-13 12:45:05.056 [info] > git rev-parse --show-toplevel [38ms]
+2023-04-13 12:45:05.087 [info] > git rev-parse --show-toplevel [17ms]
+2023-04-13 12:45:05.121 [info] > git config --get commit.template [69ms]
+2023-04-13 12:45:05.148 [info] > git rev-parse --show-toplevel [27ms]
+2023-04-13 12:45:05.182 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2023-04-13 12:45:05.212 [info] > git status -z -uall [7ms]
+2023-04-13 12:45:05.361 [info] > git check-ignore -v -z --stdin [15ms]
+2023-04-13 12:45:05.628 [info] > git show --textconv :roger-melo-js/modulo-09/exercicio1/app.js [18ms]
+2023-04-13 12:45:05.632 [info] > git ls-files --stage -- /home/ianbit/Documents/cursos/roger-melo-js/modulo-09/exercicio1/app.js [5ms]
+2023-04-13 12:45:07.632 [info] > git check-ignore -v -z --stdin [2ms]
+2023-04-13 12:45:08.621 [info] > git show --textconv :roger-melo-js/modulo-08/exercicio2/app.js [20ms]
+2023-04-13 12:45:08.621 [info] > git ls-files --stage -- /home/ianbit/Documents/cursos/roger-melo-js/modulo-08/exercicio2/app.js [2ms]
+2023-04-13 12:45:08.637 [info] > git cat-file -s 89a6324fa1b5dd4b703eca3e9ab3f23329206cd6 [2ms]
+2023-04-13 12:47:02.796 [info] > git config --get commit.template [2ms]
+2023-04-13 12:47:02.806 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-04-13 12:47:02.819 [info] > git status -z -uall [5ms]

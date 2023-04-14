@@ -1,0 +1,25 @@
+2023-04-10 12:34:43.872 [info] Log level: Info
+2023-04-10 12:34:43.872 [info] Validating found git in: "git"
+2023-04-10 12:34:43.872 [info] Using git "2.40.0" from "git"
+2023-04-10 12:34:43.879 [info] > git rev-parse --show-toplevel [8ms]
+2023-04-10 12:34:43.903 [info] > git rev-parse --git-dir --git-common-dir [13ms]
+2023-04-10 12:34:43.925 [info] Open repository: /home/ianbit/Documents/cursos
+2023-04-10 12:34:44.024 [info] > git rev-parse --show-toplevel [86ms]
+2023-04-10 12:34:44.077 [info] > git rev-parse --show-toplevel [40ms]
+2023-04-10 12:34:44.091 [info] > git config --get commit.template [77ms]
+2023-04-10 12:34:44.108 [info] > git rev-parse --show-toplevel [19ms]
+2023-04-10 12:34:44.145 [info] > git rev-parse --show-toplevel [17ms]
+2023-04-10 12:34:44.161 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2023-04-10 12:34:44.179 [info] > git rev-parse --show-toplevel [19ms]
+2023-04-10 12:34:44.201 [info] > git rev-parse --show-toplevel [5ms]
+2023-04-10 12:34:44.233 [info] > git rev-parse --show-toplevel [19ms]
+2023-04-10 12:34:44.253 [info] > git rev-parse --show-toplevel [6ms]
+2023-04-10 12:34:44.305 [info] > git rev-parse --show-toplevel [18ms]
+2023-04-10 12:34:44.519 [info] > git check-ignore -v -z --stdin [5ms]
+2023-04-10 12:34:44.616 [info] > git status -z -uall [439ms]
+2023-04-10 12:34:44.651 [info] > git config --get commit.template [3ms]
+2023-04-10 12:34:44.672 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-04-10 12:34:44.832 [info] > git status -z -uall [140ms]
+2023-04-10 12:34:44.917 [info] > git show --textconv :roger-melo-js/projects/to-do list/app.js [19ms]
+2023-04-10 12:34:44.943 [info] > git ls-files --stage -- /home/ianbit/Documents/cursos/roger-melo-js/projects/to-do list/app.js [27ms]
+2023-04-10 12:34:44.967 [info] > git cat-file -s 30afd5d45234d28032af23b8c665799170000a50 [5ms]

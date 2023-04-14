@@ -1,0 +1,11 @@
+2023-04-10 12:34:40.690 [info] [SharedProcess] using utility process
+2023-04-10 12:34:40.770 [info] update#setState idle
+2023-04-10 12:34:42.013 [info] [UtilityProcess id: 1, type: extensionHost, pid: <none>]: creating new...
+2023-04-10 12:34:42.025 [info] [UtilityProcess id: 1, type: extensionHost, pid: 6970]: successfully created
+2023-04-10 12:34:42.098 [info] [UtilityProcess type: shared-process, pid: <none>]: creating new...
+2023-04-10 12:34:42.155 [info] [UtilityProcess id: 1, type: fileWatcher, pid: <none>]: creating new...
+2023-04-10 12:34:42.163 [info] [UtilityProcess type: shared-process, pid: 6980]: successfully created
+2023-04-10 12:34:42.164 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 6981]: successfully created
+2023-04-10 12:35:10.772 [info] update#setState checking for updates
+2023-04-10 12:35:11.011 [info] update#setState idle
+2023-04-10 12:35:13.460 [info] [UtilityProcess type: shared-process, pid: 6980]: received exit event with code 15

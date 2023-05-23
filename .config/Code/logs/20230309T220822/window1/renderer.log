@@ -1,9 +1,0 @@
-2023-03-09 22:08:23.433 [info] Electron sandbox mode is enabled!
-2023-03-09 22:08:28.634 [info] [perf] Render performance baseline is 459ms
-2023-03-09 23:04:14.543 [error] Unable to read file '/home/ianbit/Documents/cursos/roger-melo-js/modulo-07/exercicio1/app.js' (Error: File not modified since): Error: Unable to read file '/home/ianbit/Documents/cursos/roger-melo-js/modulo-07/exercicio1/app.js' (Error: File not modified since)
-    at o.w (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:615:17128)
-    at o.v (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:615:16960)
-    at async m.H (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2314:34974)
-    at async m.readStream (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2314:34669)
-    at async Ns.Ab (vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2305:54190)
-    at async vscode-file://vscode-app/opt/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2314:30714

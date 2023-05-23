@@ -1,3 +1,0 @@
-// Function declaration
-
-// Function expression

@@ -1,8 +1,0 @@
-2023-03-12 20:27:35.417 [info] Starting worker process with pid 2396 (type: fileWatcher, window: 1).
-2023-03-12 20:51:54.388 [info] Getting Manifest... carlossantos74.monokai-classic-darker
-2023-03-12 20:51:54.408 [info] Installing extension: carlossantos74.monokai-classic-darker
-2023-03-12 20:52:00.130 [info] Extension signature verification: carlossantos74.monokai-classic-darker. Verification status: Verified.
-2023-03-12 20:52:00.164 [info] Extracted extension to /home/ianbit/.vscode/extensions/.752c4e8e-9670-4b66-9e7d-5b9b1417774d: carlossantos74.monokai-classic-darker
-2023-03-12 20:52:00.170 [info] Renamed to /home/ianbit/.vscode/extensions/carlossantos74.monokai-classic-darker-0.0.6
-2023-03-12 20:52:00.172 [info] Extracting extension completed. carlossantos74.monokai-classic-darker
-2023-03-12 20:52:00.189 [info] Extension installed successfully: carlossantos74.monokai-classic-darker

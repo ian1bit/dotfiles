@@ -1,5 +1,0 @@
-2023-04-12 12:39:25.451 [error] electron #1: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_INTERNET_DISCONNECTED
-2023-04-12 12:39:27.750 [error] electron #2: https://update.code.visualstudio.com/api/update/linux-x64/stable/b7886d7461186a5eac768481578c1d7ca80e2d21 - error undefined net::ERR_INTERNET_DISCONNECTED
-2023-04-12 12:39:29.366 [error] browser #1: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Offline
-2023-04-12 12:39:30.131 [error] browser #2: https://vscodeexperiments.azureedge.net/experiments/vscode-experiments.json - error GET Offline
-2023-04-12 12:39:30.651 [error] electron #3: https://update.code.visualstudio.com/api/update/linux-x64/stable/b7886d7461186a5eac768481578c1d7ca80e2d21 - error undefined net::ERR_INTERNET_DISCONNECTED

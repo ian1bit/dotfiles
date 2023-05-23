@@ -1,6 +1,0 @@
-    {
-        "editor.fontFamily": "'Fira Code', 'monospace', monospace",
-        "editor.fontLigatures": true,
-        "workbench.colorTheme": "Omni",
-        "workbench.iconTheme": "material-icon-theme"
-    }

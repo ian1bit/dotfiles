@@ -13,7 +13,7 @@ static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display 
 static const int showsystray        = 1;     /* 0 means no systray */
 static const int showbar            = 1;     /* 0 means no bar */
 static const int topbar             = 1;     /* 0 means bottom bar */
-static const char *fonts[]          = { "Cascadia:size=10:autohint=true:antialias=true" , "NotoColorEmoji:pixelsize=14:antialias=true:autohint=true" };
+static const char *fonts[]          = { "Cascadia:size=10:autohint=true:antialias=true" , "3270NerdFont:pixelsize=14:antialias=true:autohint=true" };
 static const char dmenufont[]       = "Cascadia:size=11";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */

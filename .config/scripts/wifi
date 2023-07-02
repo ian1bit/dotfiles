@@ -2,9 +2,9 @@
 
 # Gets the wifi status
 
-WIFI_FULL_ICON=' '
-WIFI_MID_ICON=' '
-WIFI_LOW_ICON=' '
+WIFI_FULL_ICON='  '
+WIFI_MID_ICON='  '
+WIFI_LOW_ICON='  '
 NO_WIFI_ICON='No connected'
 MYSSID=$(iwgetid -r)
 

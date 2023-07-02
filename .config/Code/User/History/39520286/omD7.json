@@ -1,0 +1,9 @@
+{
+    "editor.fontFamily": "JetBrains, monospace",
+    "editor.fontSize": 16,
+    "editor.lineHeight": 25,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Gruvbox Dark Hard"
+  }

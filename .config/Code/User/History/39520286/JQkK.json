@@ -1,0 +1,9 @@
+{
+    "editor.fontFamily": "Fantasque Sans Mono, monospace",
+    "editor.fontSize": 18,
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 25,
+    "editor.tabSize": 4,
+    "editor.wordWrap": "on",
+    "workbench.colorTheme": "Gruvbox Dark Hard"
+  }

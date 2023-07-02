@@ -1,5 +1,7 @@
 google-chrome
 mirage
+stremio
 ttf-font-awesome-5
 ttf-symbola
+webtorrent-desktop
 yay

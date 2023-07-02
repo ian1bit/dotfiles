@@ -1,0 +1,6 @@
+2023-06-29 20:21:56.556 [info] Running tunnel CLI
+2023-06-29 20:21:56.556 [info] status Spawning: /opt/vscode/bin/code-tunnel tunnel status
+2023-06-29 20:21:56.605 [info] no tunnel process is currently running
+
+2023-06-29 20:21:56.608 [info] status exit(17183): + 1 
+2023-06-29 20:21:56.609 [info] No other tunnel running

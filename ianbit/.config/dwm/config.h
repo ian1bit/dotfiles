@@ -79,6 +79,7 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_F1,     spawn,          {.v = browcmd } },
 	{ MODKEY|ShiftMask,             XK_z,      spawn,          SHCMD("~/.config/scripts/volume+") },
 	{ MODKEY|ShiftMask,             XK_x,      spawn,          SHCMD("~/.config/scripts/volume-") },
+	{ MODKEY,                       XK_Print,  spawn,          SHCMD("~/.config/scripts/screenshot-fs") },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY|ShiftMask,             XK_Right,  rotatestack,    {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_Left,   rotatestack,    {.i = -1 } },

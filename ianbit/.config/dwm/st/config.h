@@ -5,10 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Cascadia Mono:pixelsize=15:antialias=true:autohint=true";
-/*static char *font2[] = { "Symbola:pixelsize=12:antialias=true:autohint=true"
- * };*/
-static int borderpx = 0;
+static char *font = "Cascadia Code:pixelsize=16:antialias=true:autohint=true";
+static char *font2[] = {"Symbola:pixelsize=12:antialias=true:autohint=true"};
+static int borderpx = 40;
 static char *openurlcmd[] = {"xurls | dmenu -l 10 -w $WINDOWID | xargs -r open",
                              "externalpipe", NULL};
 
@@ -95,7 +94,7 @@ char *termname = "st-256color";
  *
  *	stty tabs
  */
-unsigned int tabspaces = 4;
+unsigned int tabspaces = 8;
 
 /* bg opacity */
 float alpha = 0.8;
@@ -171,7 +170,7 @@ static Shortcut shortcuts[] = {
     {ShiftMask, XK_Insert, selpaste, {.i = 0}},
     {TERMMOD, XK_Num_Lock, numlock, {.i = 0}},
     //	{ TERMMOD,              XK_U,           externalpipe,   { .v =
-    // openurlcmd} },
+    //openurlcmd} },
     {ShiftMask, XK_Up, kscrollup, {.i = 1}},
     {ShiftMask, XK_Down, kscrolldown, {.i = -1}},
     {ShiftMask, XK_Page_Up, kscrollup, {.i = -1}},

@@ -10,9 +10,10 @@ rm -Rf /usr/share/applications/vscode.desktop
 
 # download and descompact
 
-wget "https://go.microsoft.com/fwlink/?LinkID=620884" -O vscode.tar.gz -P Downloads
+wget "https://go.microsoft.com/fwlink/?LinkID=620884" -O vscode.tar.gz
 tar -vzxf vscode.tar.gz -C /opt/
 mv /opt/VSCode*/ /opt/vscode/
+rm -r vscode.tar.gz
 
 # shortcuts
 

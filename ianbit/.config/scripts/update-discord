@@ -10,9 +10,10 @@ rm -Rf /usr/share/applications/discord.desktop
 
 # download and descompact
 
-wget "https://discord.com/api/download?platform=linux&format=tar.gz" -O discord.tar.gz -P Downloads
+wget "https://discord.com/api/download?platform=linux&format=tar.gz" -O discord.tar.gz
 tar -vzxf discord.tar.gz -C /opt/
 mv /opt/Discord*/ /opt/discord
+rm -r discord.tar.gz
 
 # shortcuts
 

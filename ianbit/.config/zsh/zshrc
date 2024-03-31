@@ -12,10 +12,14 @@ precmd() { vcs_info }
 zstyle ':vcs_info:git:*' formats 'Ψ %b '
 setopt PROMPT_SUBST
 PROMPT='%F{black}%T%f %F{blue}%1~%f %F{red}${vcs_info_msg_0_}%f$ '
+#PROMPT='%F{red}${vcs_info_msg_0_}%f$ '
 
-#autoload -U colors && colors
+autoload -U colors && colors
 #PS1="%{$fg[green]%}%n%{$reset_color%}@%{$fg[cyan]%}%m %{$fg[yellow]%}%~ %{$reset_color%}%% "
 #PS1="%{$fg[blue]%}%~"$'\n'"%B%{$fg[green]%}ζ %{$reset_color%}%b"
+
+autoload -Uz compinit
+compinit
 
 HISTSIZE=10000
 SAVEHIST=10000
@@ -30,12 +34,14 @@ xset r rate 300 50
 ############ ALIASES #############
 ##################################
 
-alias ls='ls --color=auto'
-alias la='ls -a'
-alias ll='ls -l'
-alias lla='ls -al'
+alias ls='logo-ls'
+alias la='logo-ls -a'
+alias ll='logo-ls -l'
+alias lla='logo-ls -al'
 alias rm='rm -r'
 alias cp='cp -r'
+alias vim='nvim'
+alias vi='nvim'
 
 alias dwm='cd ~/.config/dwm'
 alias blocks='cd ~/.config/dwm/dwmblocks'
@@ -65,7 +71,7 @@ export LS_COLORS
 ##################################
 
 # cute interacion ;)
-#fortune | ~/bin/pokesay
+fortune | ~/bin/pokesay
 
 # enable auto-suggestions based on the history
 if [ -f ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then

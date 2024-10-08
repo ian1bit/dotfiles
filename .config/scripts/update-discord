@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# remove old version
+
+cd /home/ianbit
+rm -Rf /opt/discord/*
+rm -Rf /opt/discord/Discord
+rm -Rf /opt/discord/
+rm -Rf /usr/share/applications/discord.desktop
+
+# download and descompact
+
+wget "https://discord.com/api/download?platform=linux&format=tar.gz" -O discord.tar.gz
+tar -vzxf discord.tar.gz -C /opt/
+mv /opt/Discord*/ /opt/discord
+rm -r discord.tar.gz
+
+# shortcuts
+
+ln -sf /opt/discord/Discord /usr/bin/discord
+echo -e '[Desktop Entry]\n Version=1.0\n Name=discord\n Exec=/opt/discord/Discord\n Icon=/opt/discord/discord.png\n Type=Application\n Categories=Application' | tee /usr/share/applications | tee /usr/share/applications/discord.desktop

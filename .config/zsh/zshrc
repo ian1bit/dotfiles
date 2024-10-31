@@ -19,14 +19,14 @@ eval "$(starship init zsh)"
 #PS1="%{$fg[green]%}%n%{$reset_color%}@%{$fg[cyan]%}%m %{$fg[yellow]%}%~ %{$reset_color%}%% "
 #PS1="%{$fg[blue]%}%~"$'\n'"%B%{$fg[green]%}ζ %{$reset_color%}%b"
 
-#autoload -Uz compinit
+autoload -Uz compinit
 compinit
 
-#HISTSIZE=10000
-#SAVEHIST=10000
-#HISTFILE=~/.zsh_history
-#setopt INC_APPEND_HISTORY
-#setopt SHARE_HISTORY
+HISTSIZE=10000
+SAVEHIST=10000
+HISTFILE=~/.zsh_history
+setopt INC_APPEND_HISTORY
+setopt SHARE_HISTORY
 
 #xset r rate 300 50
 #PATH=$PATH:$HOME/.config/Scripts
@@ -73,7 +73,7 @@ export LS_COLORS
 ##################################
 
 # cute interacion ;)
-fortune | ~/bin/pokesay
+# fortune | ~/bin/pokesay
 
 #enable auto-suggestions based on the history
 #if [ -f ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then

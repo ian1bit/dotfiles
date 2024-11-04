@@ -1,0 +1,4 @@
+google-chrome
+stremio
+yay
+yay-debug

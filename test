@@ -1,0 +1,3 @@
+cd ~/.config/dwm
+make
+

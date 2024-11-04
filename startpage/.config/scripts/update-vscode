@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# remove old version
+
+cd /home/ianbit
+rm -Rf /opt/vscode/*
+rm -Rf /opt/vscode/code
+rm -Rf /opt/vscode/
+rm -Rf /usr/share/applications/vscode.desktop
+
+# download and descompact
+
+wget "https://go.microsoft.com/fwlink/?LinkID=620884" -O vscode.tar.gz
+tar -vzxf vscode.tar.gz -C /opt/
+mv /opt/VSCode*/ /opt/vscode/
+rm -r vscode.tar.gz
+
+# shortcuts
+
+ln -sf /opt/vscode/code /usr/bin/code
+echo -e '[Desktop Entry]\n Version=1.0\n Name=vscode\n Exec=/opt/vscode/code\n Icon=/opt/vscode/resources/app/resources/linux/code.png\n Type=Application\n Categories=Application' | tee /usr/share/applications/vscode.desktop
